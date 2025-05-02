@@ -86,12 +86,25 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 ## 🖼️ App Screenshots
 
 ### 📸 1. Fridge Scanning in Action
-![Fridge Scan](assets/fridge_scan.png)
+![Fridge Scan](assets/fridge_scan.jfif)
 
 ### 🍲 2. Smart Recipe Suggestions
-![Recipe Suggestions](assets/fridge1.png)
+![Recipe Suggestions](assets/fridge1.jfif)
 
 ### 🛒 3. Order Missing Ingredients with One Tap
 ![Grocery Order](assets/app1.png)
+
+---
+
+### Multiple App Screenshots Side by Side
+
+#### 📸 App Screenshots
+![App 1](assets/app1.jpg) ![App 2](assets/app2.jpg) ![App 3](assets/app3.jpg)
+
+#### 🍲 Smart Recipe Suggestions
+![App 6](assets/app6.jpg) ![App 5](assets/app5.jpg) ![App 7](assets/app7.jpg)
+
+#### 🛒 Order Missing Ingredients with One Tap
+![App 8](assets/app8.jpg) ![App 4](assets/app4.jpg)
 
 ---
