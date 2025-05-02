@@ -59,7 +59,7 @@ If a recipe requires **bread** and it's not detected, the app will:
 ## 🛠️ Tech Stack (Optional)
 
 - Kotlin / Flutter / React Native (Frontend)
-- TensorFlow / OpenCV / YOLO (Image Recognition)
+- gemini api (Image Recognition)
 - Node.js / Flask (Backend APIs)
 - Firebase / MongoDB (Database)
 - Zepto / Blinkit API Integration
