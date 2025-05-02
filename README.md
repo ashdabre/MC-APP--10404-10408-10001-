@@ -81,3 +81,17 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ---
 
+---
+
+## 🖼️ App Screenshots
+
+### 📸 1. Fridge Scanning in Action
+![Fridge Scan](assets/fridge_scan.png)
+
+### 🍲 2. Smart Recipe Suggestions
+![Recipe Suggestions](assets/recipe_suggestion.png)
+
+### 🛒 3. Order Missing Ingredients with One Tap
+![Grocery Order](assets/grocery_order.png)
+
+---
