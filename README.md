@@ -99,12 +99,10 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 ### Multiple App Screenshots Side by Side
 
 #### 📸 App Screenshots
-![App 1](assets/app1.jpg) ![App 2](assets/app2.jpg) ![App 3](assets/app3.jpg)
+![App 1](assets/app1.png) ![App 2](assets/app2.png) ![App 3](assets/app3.png)
 
 #### 🍲 Smart Recipe Suggestions
-![App 6](assets/app6.jpg) ![App 5](assets/app5.jpg) ![App 7](assets/app7.jpg)
+![App 6](assets/app6.png) ![App 5](assets/app5.png) ![App 7](assets/app7.png)
 
 #### 🛒 Order Missing Ingredients with One Tap
-![App 8](assets/app8.jpg) ![App 4](assets/app4.jpg)
-
----
+![App 8](assets/app8.png) ![App 4](assets/app4.png)
