@@ -1,0 +1,155 @@
+import { Recipe } from '../contexts/RecipeContext';
+
+export const mockRecipes: Recipe[] = [
+  {
+    id: '1',
+    title: 'Pasta Carbonara',
+    imageUrl: 'https://images.pexels.com/photos/1527603/pexels-photo-1527603.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    prepTime: 10,
+    cookTime: 15,
+    servings: 2,
+    difficulty: 'easy',
+    ingredients: [
+      { id: '1', name: 'Spaghetti', quantity: '200', unit: 'g' },
+      { id: '2', name: 'Eggs', quantity: '2', unit: '' },
+      { id: '3', name: 'Pancetta', quantity: '100', unit: 'g' },
+      { id: '4', name: 'Parmesan cheese', quantity: '50', unit: 'g' },
+      { id: '5', name: 'Black pepper', quantity: '1', unit: 'tsp' },
+      { id: '6', name: 'Salt', quantity: '1', unit: 'tsp' },
+    ],
+    instructions: [
+      'Bring a large pot of salted water to boil and cook spaghetti according to package instructions.',
+      'In a bowl, whisk eggs and grated Parmesan cheese together. Set aside.',
+      'In a large pan, cook the pancetta until crispy.',
+      'When pasta is cooked, reserve a cup of pasta water, then drain.',
+      'Add the hot pasta to the pan with pancetta, remove from heat.',
+      'Quickly add the egg and cheese mixture, stirring constantly.',
+      'Add a splash of reserved pasta water to create a creamy sauce.',
+      'Season with freshly ground black pepper and serve immediately.'
+    ],
+    tags: ['italian', 'pasta', 'quick'],
+    isFavorite: false
+  },
+  {
+    id: '2',
+    title: 'Vegetable Stir Fry',
+    imageUrl: 'https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    prepTime: 15,
+    cookTime: 10,
+    servings: 4,
+    difficulty: 'easy',
+    ingredients: [
+      { id: '7', name: 'Bell peppers', quantity: '2', unit: '' },
+      { id: '8', name: 'Broccoli', quantity: '1', unit: 'head' },
+      { id: '9', name: 'Carrots', quantity: '2', unit: '' },
+      { id: '10', name: 'Onion', quantity: '1', unit: '' },
+      { id: '11', name: 'Garlic', quantity: '2', unit: 'cloves' },
+      { id: '12', name: 'Soy sauce', quantity: '3', unit: 'tbsp' },
+      { id: '13', name: 'Vegetable oil', quantity: '2', unit: 'tbsp' },
+      { id: '14', name: 'Ginger', quantity: '1', unit: 'tsp' },
+      { id: '15', name: 'Rice', quantity: '2', unit: 'cups' },
+    ],
+    instructions: [
+      'Prepare all vegetables by washing and cutting them into bite-sized pieces.',
+      'Heat oil in a wok or large frying pan over high heat.',
+      'Add garlic and ginger, stir for 30 seconds until fragrant.',
+      'Add onion and stir fry for 1 minute.',
+      'Add harder vegetables like carrots and broccoli stems, cook for 2 minutes.',
+      'Add remaining vegetables and stir fry for 3-4 minutes until crisp-tender.',
+      'Add soy sauce and toss to combine.',
+      'Serve hot over cooked rice.'
+    ],
+    tags: ['vegetarian', 'asian', 'healthy'],
+    isFavorite: true
+  },
+  {
+    id: '3',
+    title: 'Chicken Caesar Salad',
+    imageUrl: 'https://images.pexels.com/photos/406152/pexels-photo-406152.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    prepTime: 15,
+    cookTime: 15,
+    servings: 2,
+    difficulty: 'easy',
+    ingredients: [
+      { id: '16', name: 'Chicken breast', quantity: '2', unit: '' },
+      { id: '17', name: 'Romaine lettuce', quantity: '1', unit: 'head' },
+      { id: '18', name: 'Parmesan cheese', quantity: '50', unit: 'g' },
+      { id: '19', name: 'Caesar dressing', quantity: '60', unit: 'ml' },
+      { id: '20', name: 'Croutons', quantity: '1', unit: 'cup' },
+      { id: '21', name: 'Olive oil', quantity: '1', unit: 'tbsp' },
+      { id: '22', name: 'Salt', quantity: '', unit: 'to taste' },
+      { id: '23', name: 'Black pepper', quantity: '', unit: 'to taste' },
+    ],
+    instructions: [
+      'Season chicken breasts with salt and pepper.',
+      'Heat olive oil in a pan over medium heat.',
+      'Cook chicken for 6-7 minutes per side, until fully cooked. Set aside to cool.',
+      'Wash and chop the romaine lettuce into bite-sized pieces.',
+      'Slice the cooled chicken into strips.',
+      'In a large bowl, toss lettuce with Caesar dressing.',
+      'Add chicken strips, croutons, and shaved Parmesan cheese.',
+      'Serve immediately.'
+    ],
+    tags: ['salad', 'chicken', 'healthy'],
+    isFavorite: false
+  },
+  {
+    id: '4',
+    title: 'Veggie Omelette',
+    imageUrl: 'https://images.pexels.com/photos/90394/pexels-photo-90394.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    prepTime: 5,
+    cookTime: 10,
+    servings: 1,
+    difficulty: 'easy',
+    ingredients: [
+      { id: '24', name: 'Eggs', quantity: '3', unit: '' },
+      { id: '25', name: 'Bell pepper', quantity: '1/2', unit: '' },
+      { id: '26', name: 'Onion', quantity: '1/4', unit: '' },
+      { id: '27', name: 'Spinach', quantity: '1', unit: 'cup' },
+      { id: '28', name: 'Cheese', quantity: '1/4', unit: 'cup' },
+      { id: '29', name: 'Butter', quantity: '1', unit: 'tbsp' },
+      { id: '30', name: 'Salt', quantity: '', unit: 'to taste' },
+      { id: '31', name: 'Black pepper', quantity: '', unit: 'to taste' },
+    ],
+    instructions: [
+      'Chop bell pepper, onion, and spinach into small pieces.',
+      'Whisk eggs in a bowl with salt and pepper.',
+      'Melt butter in a non-stick pan over medium heat.',
+      'Add vegetables and sauté for 2-3 minutes until softened.',
+      'Pour egg mixture over vegetables and tilt pan to spread evenly.',
+      'When eggs start to set, sprinkle cheese on one half of the omelette.',
+      'Use a spatula to fold the other half over the cheese.',
+      'Cook for another minute until cheese melts and omelette is cooked through.'
+    ],
+    tags: ['breakfast', 'vegetarian', 'quick'],
+    isFavorite: true
+  },
+  {
+    id: '5',
+    title: 'Berry Smoothie Bowl',
+    imageUrl: 'https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    prepTime: 5,
+    cookTime: 0,
+    servings: 1,
+    difficulty: 'easy',
+    ingredients: [
+      { id: '32', name: 'Frozen mixed berries', quantity: '1', unit: 'cup' },
+      { id: '33', name: 'Banana', quantity: '1', unit: '' },
+      { id: '34', name: 'Greek yogurt', quantity: '1/2', unit: 'cup' },
+      { id: '35', name: 'Almond milk', quantity: '1/4', unit: 'cup' },
+      { id: '36', name: 'Honey', quantity: '1', unit: 'tbsp' },
+      { id: '37', name: 'Granola', quantity: '1/4', unit: 'cup' },
+      { id: '38', name: 'Chia seeds', quantity: '1', unit: 'tsp' },
+      { id: '39', name: 'Fresh berries', quantity: '1/4', unit: 'cup' },
+    ],
+    instructions: [
+      'In a blender, combine frozen berries, banana, Greek yogurt, almond milk, and honey.',
+      'Blend until smooth and thick. If too thick, add more almond milk.',
+      'Pour into a bowl.',
+      'Top with granola, chia seeds, and fresh berries.',
+      'Serve immediately.'
+    ],
+    tags: ['breakfast', 'healthy', 'vegetarian'],
+    isFavorite: false
+  }
+];
