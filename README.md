@@ -89,9 +89,9 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 ![Fridge Scan](assets/fridge_scan.png)
 
 ### 🍲 2. Smart Recipe Suggestions
-![Recipe Suggestions](assets/recipe_suggestion.png)
+![Recipe Suggestions](assets/fridge1.png)
 
 ### 🛒 3. Order Missing Ingredients with One Tap
-![Grocery Order](assets/grocery_order.png)
+![Grocery Order](assets/app1.png)
 
 ---
